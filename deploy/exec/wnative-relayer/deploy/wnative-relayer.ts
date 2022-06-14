@@ -15,7 +15,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   Check all variables below before execute the deployment script
   */
   const config = getConfig();
-  const WNATIVE_ADDR = config.Tokens.WFTM!;
+  const WNATIVE_ADDR = config.Tokens.WBNB!;
 
   const deployer = (await ethers.getSigners())[0];
 

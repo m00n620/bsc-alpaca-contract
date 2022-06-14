@@ -1,7 +1,7 @@
 {
   "ProxyAdmin": "0x2c6c09b46d00A88161B7e4AcFaFEc58990548aC2",
-  "Timelock": "0xb3c3aE82358DF7fC0bd98629D5ed91767e45c337",
-  "Shield": "0x938350DF8BF3bD81Baae368b72132f1Bd14E7C13",
+  "Timelock": "0x2D5408f2287BF9F9B05404794459a846651D0a59",
+  "Shield": "0xC4932fA05D9B55bC934912D33E3ba77dcFE68b98",
   "MultiCall": "0xae11C5B5f29A6a25e955F0CB8ddCc416f522AF5C",
   "MerkleDistributor": {
     "ITAM-week-1": "0x2909278D6e7B8fCaf91daFB26005B5A7D9045340",
@@ -931,7 +931,7 @@
     "TripleSlopeModel": "0x2Fe7097cf766DfE06f9e2eD3021f8a4bbEf468Dd",
     "TripleSlopeModelStable20Max150": "0x038cd7a6A397d7f5D07a0c76A4610a7Ca64eb7d3",
     "TripleSlopeModel103": "0x111ae8da53D0998260DfdfA2172d4f88f969d386",
-    "WNativeRelayer": "0x7e2284c8CC74F13FA6c218c4231b0786E6204728",
+    "WNativeRelayer": "0x781C0d74CbEcb6E5434D34320d2793E7646267Bd",
     "WorkerConfig": "0x8ae5e14864090E9332Ceb238F7cEa183d7C056a7",
     "PancakeswapSingleAssetWorkerConfig": "0x84c8c614826f312BE90f0161498e3d57646Ef34f"
   },
@@ -3187,5 +3187,9 @@
       "assetVaultPosId": "180",
       "stableVaultPosId": "370"
     }
-  ]
+  ],
+  "AutomatedVaultController": {
+    "address": "0x58187DF9aEB9b57D8034e9EDec9ed04583D4026A",
+    "creditors": []
+  }
 }
