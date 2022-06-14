@@ -23,13 +23,13 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   ░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝╚═╝░░╚══╝░╚═════╝░
   Check all variables below before execute the deployment script
   */
-  const TITLE = "cake_vault";
+  const TITLE = "wbnb_vault";
   const ALLOC_POINT_FOR_DEPOSIT = 0;
   const ALLOC_POINT_FOR_OPEN_POSITION = 0;
-  const VAULT_NAME = "CAKE Vault";
-  const NAME = "Interest Bearing CAKE";
-  const SYMBOL = "ibCAKE";
-  const DEBT_FAIR_LAUNCH_PID = "27";
+  const VAULT_NAME = "WBNB Vault";
+  const NAME = "Interest Bearing WBNB";
+  const SYMBOL = "ibWBNB";
+  const DEBT_FAIR_LAUNCH_PID = "6";
   const EXACT_ETA = "1652850000";
 
   const config = ConfigEntity.getConfig();
